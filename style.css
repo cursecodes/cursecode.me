@@ -63,10 +63,32 @@ h1 {
   margin-right: 0;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-tag {
+  padding-right: 10px;
+  text-align: right;
+  color: gray;
+}
+
+.copy-tag {
+  padding-left: 10px;
+  text-align: left;
+}
+
 @media (min-width:960px){
       .projects {
         margin-left: 120px;
         margin-right: 120px;
+      }
+      .status-tag {
+        padding-right: 120px;
+      }
+      .copy-tag {
+        padding-left: 120px;
       }
     }
 
